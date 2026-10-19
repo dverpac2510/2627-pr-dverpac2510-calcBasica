@@ -3,19 +3,44 @@
 
 
 def suma(num1: float, num2: float) -> float:
-    """Da la suma de dos números"""
+    """
+    Da la suma de dos números
+    :param num1: el primer número a sumar
+    :param num2: el segundo número a sumar
+    :return: un float de la suma de los dos números
+    
+    """
     return float(num1 + num2)
 
 def resta(num1: float, num2: float) -> float:
-    """Da la resta de dos números"""
+    """
+    Da la resta de dos números
+    :param num1: el primer número a restar
+    :param num2: el segundo número a restar
+    :return: un float de la resta de los dos números
+
+    """
     return float(num1 - num2)
 
 def multiplicacion(num1: float, num2: float) -> float:
-    """Da la multiplicación de dos números"""
+    """
+    Da la multiplicación de dos números
+
+    :param num1: el primer número a multiplicar
+    :param num2: el segundo número a multiplicar
+    :return: un float de la multiplicación de los dos números
+    
+    """
     return float(num1 * num2)
 
 def division(num1: float, num2: float) -> float:
-    """Da la división de dos números"""
+    """
+    Da la división de dos números
+    :param num1: el primer número a dividir
+    :param num2: el segundo número a dividir
+    :return: un float de la division de los dos números
+
+    """
     return float(num1 / num2)
 
 
